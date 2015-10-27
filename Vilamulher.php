@@ -5,9 +5,9 @@ namespace emidia\propriedades;
 use emidia\propriedades\iPropriedade;
 
 /**
- * Retorna informações do Cybercook
+ * Retorna informações do Vilamulher
  */
-class Cybercook implements iPropriedade
+class Vilamulher implements iPropriedade
 {
     /**
     * @inheritdoc
@@ -16,12 +16,12 @@ class Cybercook implements iPropriedade
     {
         return 'http://www.cybercook.com.br';
     }
-
+    
     /**
     * @inheritdoc
     */
     public static function url_mobile()
     {
-        return 'http://m.cybercook.com.br';
+        return self::url();
     }
 }

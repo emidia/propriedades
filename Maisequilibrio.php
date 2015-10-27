@@ -5,23 +5,23 @@ namespace emidia\propriedades;
 use emidia\propriedades\iPropriedade;
 
 /**
- * Retorna informações do Cybercook
+ * Retorna informações do Maisequilibrio
  */
-class Cybercook implements iPropriedade
+class Maisequilibrio implements iPropriedade
 {
     /**
     * @inheritdoc
     */
     public static function url()
     {
-        return 'http://www.cybercook.com.br';
+        return 'http//www.maisequilibrio.com.br';
     }
-
+    
     /**
     * @inheritdoc
     */
     public static function url_mobile()
     {
-        return 'http://m.cybercook.com.br';
+        return self::url();
     }
 }
