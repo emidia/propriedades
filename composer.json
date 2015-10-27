@@ -1,0 +1,17 @@
+{
+    "name": "emidia/propriedades",
+    "description": "Informações básicas das propriedades da E-Midia Informações",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo Zani",
+            "email": "rodrigo.zhs@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+          "emidia\\propriedades\\": ""
+      }
+    },
+    "require": {}
+}
