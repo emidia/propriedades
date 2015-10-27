@@ -2,7 +2,7 @@
 
 namespace emidia\propriedades;
 
-use iPropriedade;
+use emidia\propriedades\iPropriedade;
 
 /**
  * Retorna informações do Cybercook

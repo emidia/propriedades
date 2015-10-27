@@ -1,5 +1,7 @@
 <?php
 
+namespace emidia\propriedades;
+
 /**
 * Interface
 */
@@ -13,5 +15,5 @@ interface iPropriedade
     /**
     * Retorna a url principal do site mobile
     */
-    public static function url_mobile();
+    public static function urlMobile();
 }
