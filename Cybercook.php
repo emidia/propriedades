@@ -20,7 +20,7 @@ class Cybercook implements iPropriedade
     /**
     * @inheritdoc
     */
-    public static function url_mobile()
+    public static function urlMobile()
     {
         return 'http://m.cybercook.com.br';
     }

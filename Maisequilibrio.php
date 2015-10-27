@@ -16,11 +16,11 @@ class Maisequilibrio implements iPropriedade
     {
         return 'http//www.maisequilibrio.com.br';
     }
-    
+
     /**
     * @inheritdoc
     */
-    public static function url_mobile()
+    public static function urlMobile()
     {
         return self::url();
     }

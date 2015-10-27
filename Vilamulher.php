@@ -16,11 +16,11 @@ class Vilamulher implements iPropriedade
     {
         return 'http://www.cybercook.com.br';
     }
-    
+
     /**
     * @inheritdoc
     */
-    public static function url_mobile()
+    public static function urlMobile()
     {
         return self::url();
     }
